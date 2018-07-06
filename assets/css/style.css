@@ -4,13 +4,14 @@
 	margin:0px;
 	font-family: 'Bree Serif', serif;
 	/*outline: 2px solid red;*/
+	box-sizing: border-box;
 }
 body{
 	width: 100%;
 	/*overflow: hidden;*/
 }
 .card{
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 #cardImg{
 	height: 100%;
@@ -31,7 +32,8 @@ body{
 }
 #portfolio{
 	/*background-color: #ffb3ba;*/
-	overflow: hidden;
+	/*overflow: hidden;*/
+	min-height: 100px;
 }
 #Skills{
 	background-color: 
@@ -61,5 +63,9 @@ h3{
 	overflow: hidden;
 }
 #Aboutme{
-	height: 500px;
+	min-height: 100px;
+}
+#cardImg2{
+	height: 485px;
+	width: 100%;
 }
